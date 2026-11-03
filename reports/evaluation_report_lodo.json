@@ -1,0 +1,31 @@
+{
+  "mode": "lodo",
+  "holdout_drone": "D6",
+  "overall_accuracy": 0.9597672064777328,
+  "macro_f1": 0.8858742784830635,
+  "unseen_drone_accuracy": 0.9887719298245614,
+  "latency_ms": 14.595656000077724,
+  "fps": 68.51353580782356,
+  "parameter_count": 135971,
+  "model_size_mb": 1.722087,
+  "class_metrics": {
+    "Bird": {
+      "Precision": 0.9766627771295215,
+      "Recall": 0.8792016806722689,
+      "F1": 0.9253731343283582,
+      "Support": 952
+    },
+    "Drone": {
+      "Precision": 0.9798331015299027,
+      "Recall": 0.9887719298245614,
+      "F1": 0.9842822214460357,
+      "Support": 2850
+    },
+    "Human": {
+      "Precision": 0.6301369863013698,
+      "Recall": 0.92,
+      "F1": 0.7479674796747968,
+      "Support": 150
+    }
+  }
+}

@@ -1,0 +1,16 @@
+# Raw and processed large dataset files (GitHub limit is 100MB)
+DATA/raw/
+DATA/processed/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+.pytest_cache/
+
+# OS and environment
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
