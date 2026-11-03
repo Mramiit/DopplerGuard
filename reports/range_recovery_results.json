@@ -3,56 +3,120 @@
     "distance_m": 70.0,
     "snr_db": 15.0,
     "snr_drop_db": 0.0,
-    "raw_accuracy": 93.75,
-    "restored_accuracy": 83.75,
-    "accuracy_gain": -10.0
+    "raw_accuracy": 93.25,
+    "restored_accuracy": 78.5,
+    "raw_drone_recall": 98.5,
+    "restored_drone_recall": 100.0,
+    "drone_recall_gain": 1.5,
+    "raw_bird_specificity": 91.33,
+    "restored_bird_specificity": 67.33
   },
   {
-    "distance_m": 120.0,
-    "snr_db": 5.64,
-    "snr_drop_db": -9.36,
-    "raw_accuracy": 32.5,
-    "restored_accuracy": 39.5,
-    "accuracy_gain": 7.0
+    "distance_m": 90.0,
+    "snr_db": 10.63,
+    "snr_drop_db": -4.37,
+    "raw_accuracy": 85.0,
+    "restored_accuracy": 82.75,
+    "raw_drone_recall": 83.0,
+    "restored_drone_recall": 96.5,
+    "drone_recall_gain": 13.5,
+    "raw_bird_specificity": 96.0,
+    "restored_bird_specificity": 89.33
+  },
+  {
+    "distance_m": 110.0,
+    "snr_db": 7.15,
+    "snr_drop_db": -7.85,
+    "raw_accuracy": 51.5,
+    "restored_accuracy": 67.0,
+    "raw_drone_recall": 22.5,
+    "restored_drone_recall": 58.5,
+    "drone_recall_gain": 36.0,
+    "raw_bird_specificity": 100.0,
+    "restored_bird_specificity": 99.33
+  },
+  {
+    "distance_m": 130.0,
+    "snr_db": 4.25,
+    "snr_drop_db": -10.75,
+    "raw_accuracy": 38.75,
+    "restored_accuracy": 42.75,
+    "raw_drone_recall": 2.0,
+    "restored_drone_recall": 10.5,
+    "drone_recall_gain": 8.5,
+    "raw_bird_specificity": 100.0,
+    "restored_bird_specificity": 100.0
+  },
+  {
+    "distance_m": 150.0,
+    "snr_db": 1.76,
+    "snr_drop_db": -13.24,
+    "raw_accuracy": 88.25,
+    "restored_accuracy": 74.5,
+    "raw_drone_recall": 91.5,
+    "restored_drone_recall": 99.5,
+    "drone_recall_gain": 8.0,
+    "raw_bird_specificity": 89.33,
+    "restored_bird_specificity": 60.67
+  },
+  {
+    "distance_m": 180.0,
+    "snr_db": -1.41,
+    "snr_drop_db": -16.41,
+    "raw_accuracy": 83.0,
+    "restored_accuracy": 84.0,
+    "raw_drone_recall": 78.5,
+    "restored_drone_recall": 96.0,
+    "drone_recall_gain": 17.5,
+    "raw_bird_specificity": 98.67,
+    "restored_bird_specificity": 90.0
   },
   {
     "distance_m": 200.0,
     "snr_db": -3.24,
     "snr_drop_db": -18.24,
-    "raw_accuracy": 70.5,
-    "restored_accuracy": 69.0,
-    "accuracy_gain": -1.5
+    "raw_accuracy": 68.25,
+    "restored_accuracy": 77.0,
+    "raw_drone_recall": 53.5,
+    "restored_drone_recall": 81.0,
+    "drone_recall_gain": 27.5,
+    "raw_bird_specificity": 98.0,
+    "restored_bird_specificity": 95.33
+  },
+  {
+    "distance_m": 250.0,
+    "snr_db": -7.11,
+    "snr_drop_db": -22.11,
+    "raw_accuracy": 43.75,
+    "restored_accuracy": 46.0,
+    "raw_drone_recall": 11.0,
+    "restored_drone_recall": 20.5,
+    "drone_recall_gain": 9.5,
+    "raw_bird_specificity": 98.67,
+    "restored_bird_specificity": 95.33
   },
   {
     "distance_m": 350.0,
     "snr_db": -12.96,
     "snr_drop_db": -27.96,
-    "raw_accuracy": 26.25,
-    "restored_accuracy": 25.25,
-    "accuracy_gain": -1.0
+    "raw_accuracy": 38.25,
+    "restored_accuracy": 38.25,
+    "raw_drone_recall": 1.5,
+    "restored_drone_recall": 2.5,
+    "drone_recall_gain": 1.0,
+    "raw_bird_specificity": 100.0,
+    "restored_bird_specificity": 98.67
   },
   {
     "distance_m": 500.0,
     "snr_db": -19.15,
     "snr_drop_db": -34.15,
-    "raw_accuracy": 25.75,
-    "restored_accuracy": 24.5,
-    "accuracy_gain": -1.25
-  },
-  {
-    "distance_m": 750.0,
-    "snr_db": -26.2,
-    "snr_drop_db": -41.2,
-    "raw_accuracy": 25.5,
-    "restored_accuracy": 25.25,
-    "accuracy_gain": -0.25
-  },
-  {
-    "distance_m": 1000.0,
-    "snr_db": -31.2,
-    "snr_drop_db": -46.2,
-    "raw_accuracy": 24.75,
-    "restored_accuracy": 25.0,
-    "accuracy_gain": 0.25
+    "raw_accuracy": 37.25,
+    "restored_accuracy": 37.75,
+    "raw_drone_recall": 0.0,
+    "restored_drone_recall": 2.5,
+    "drone_recall_gain": 2.5,
+    "raw_bird_specificity": 99.33,
+    "restored_bird_specificity": 97.33
   }
 ]
