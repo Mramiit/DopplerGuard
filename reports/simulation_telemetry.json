@@ -1,0 +1,921 @@
+{
+  "scenario": "direct_ingress",
+  "duration_sec": 25,
+  "radar_coordinates": [
+    0.0,
+    0.0,
+    5.0
+  ],
+  "telemetry": [
+    {
+      "time_sec": 0.0,
+      "position": [
+        700.0,
+        0.0,
+        40.0
+      ],
+      "velocity": [
+        -26.0,
+        4.0,
+        -0.5
+      ],
+      "slant_range_m": 700.9,
+      "radial_velocity_mps": -25.99,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 98.7,
+        "probabilities": {
+          "Bird": 98.7,
+          "Drone": 0.8,
+          "Human": 0.6
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 99.5,
+        "probabilities": {
+          "Bird": 99.5,
+          "Drone": 0.4,
+          "Human": 0.0
+        }
+      },
+      "perimeter_zone": "OUTER (Safe)"
+    },
+    {
+      "time_sec": 1.0,
+      "position": [
+        674.0,
+        3.973386526107788,
+        39.5
+      ],
+      "velocity": [
+        -26.0,
+        3.9202663898468018,
+        -0.5
+      ],
+      "slant_range_m": 674.9,
+      "radial_velocity_mps": -25.97,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 80.5,
+        "probabilities": {
+          "Bird": 80.5,
+          "Drone": 15.2,
+          "Human": 4.3
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 97.9,
+        "probabilities": {
+          "Bird": 97.9,
+          "Drone": 2.0,
+          "Human": 0.1
+        }
+      },
+      "perimeter_zone": "OUTER (Safe)"
+    },
+    {
+      "time_sec": 2.0,
+      "position": [
+        648.0,
+        7.788366794586182,
+        39.0
+      ],
+      "velocity": [
+        -26.0,
+        3.68424391746521,
+        -0.5
+      ],
+      "slant_range_m": 648.9,
+      "radial_velocity_mps": -25.94,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 99.3,
+        "probabilities": {
+          "Bird": 99.3,
+          "Drone": 0.5,
+          "Human": 0.2
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 98.6,
+        "probabilities": {
+          "Bird": 98.6,
+          "Drone": 1.3,
+          "Human": 0.1
+        }
+      },
+      "perimeter_zone": "OUTER (Safe)"
+    },
+    {
+      "time_sec": 3.0,
+      "position": [
+        622.0,
+        11.29284954071045,
+        38.5
+      ],
+      "velocity": [
+        -26.0,
+        3.301342487335205,
+        -0.5
+      ],
+      "slant_range_m": 623.0,
+      "radial_velocity_mps": -25.93,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 95.5,
+        "probabilities": {
+          "Bird": 95.5,
+          "Drone": 3.2,
+          "Human": 1.4
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 97.6,
+        "probabilities": {
+          "Bird": 97.6,
+          "Drone": 2.2,
+          "Human": 0.2
+        }
+      },
+      "perimeter_zone": "OUTER (Safe)"
+    },
+    {
+      "time_sec": 4.0,
+      "position": [
+        596.0,
+        14.347122192382812,
+        38.0
+      ],
+      "velocity": [
+        -26.0,
+        2.7868268489837646,
+        -0.5
+      ],
+      "slant_range_m": 597.1,
+      "radial_velocity_mps": -25.91,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 92.2,
+        "probabilities": {
+          "Bird": 92.2,
+          "Drone": 7.6,
+          "Human": 0.1
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 99.0,
+        "probabilities": {
+          "Bird": 99.0,
+          "Drone": 0.9,
+          "Human": 0.1
+        }
+      },
+      "perimeter_zone": "OUTER (Safe)"
+    },
+    {
+      "time_sec": 5.0,
+      "position": [
+        570.0,
+        16.82942008972168,
+        37.5
+      ],
+      "velocity": [
+        -26.0,
+        2.1612091064453125,
+        -0.5
+      ],
+      "slant_range_m": 571.2,
+      "radial_velocity_mps": -25.91,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 98.7,
+        "probabilities": {
+          "Bird": 98.7,
+          "Drone": 1.1,
+          "Human": 0.2
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 98.1,
+        "probabilities": {
+          "Bird": 98.1,
+          "Drone": 1.7,
+          "Human": 0.2
+        }
+      },
+      "perimeter_zone": "OUTER (Safe)"
+    },
+    {
+      "time_sec": 6.0,
+      "position": [
+        544.0,
+        18.64078140258789,
+        37.0
+      ],
+      "velocity": [
+        -26.0,
+        1.44943106174469,
+        -0.5
+      ],
+      "slant_range_m": 545.3,
+      "radial_velocity_mps": -25.92,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 98.6,
+        "probabilities": {
+          "Bird": 98.6,
+          "Drone": 1.3,
+          "Human": 0.2
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 97.7,
+        "probabilities": {
+          "Bird": 97.7,
+          "Drone": 2.1,
+          "Human": 0.1
+        }
+      },
+      "perimeter_zone": "OUTER (Safe)"
+    },
+    {
+      "time_sec": 7.0,
+      "position": [
+        518.0,
+        19.708993911743164,
+        36.5
+      ],
+      "velocity": [
+        -26.0,
+        0.6798685789108276,
+        -0.5
+      ],
+      "slant_range_m": 519.3,
+      "radial_velocity_mps": -25.94,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 98.9,
+        "probabilities": {
+          "Bird": 98.9,
+          "Drone": 1.0,
+          "Human": 0.1
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 99.4,
+        "probabilities": {
+          "Bird": 99.4,
+          "Drone": 0.5,
+          "Human": 0.0
+        }
+      },
+      "perimeter_zone": "OUTER (Safe)"
+    },
+    {
+      "time_sec": 8.0,
+      "position": [
+        492.0,
+        19.991472244262695,
+        36.0
+      ],
+      "velocity": [
+        -26.0,
+        -0.11679808795452118,
+        -0.5
+      ],
+      "slant_range_m": 493.4,
+      "radial_velocity_mps": -25.96,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 95.2,
+        "probabilities": {
+          "Bird": 95.2,
+          "Drone": 4.2,
+          "Human": 0.7
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 93.1,
+        "probabilities": {
+          "Bird": 93.1,
+          "Drone": 5.9,
+          "Human": 1.0
+        }
+      },
+      "perimeter_zone": "WARNING ZONE"
+    },
+    {
+      "time_sec": 9.0,
+      "position": [
+        466.0,
+        19.476953506469727,
+        35.5
+      ],
+      "velocity": [
+        -26.0,
+        -0.9088083505630493,
+        -0.5
+      ],
+      "slant_range_m": 467.4,
+      "radial_velocity_mps": -25.99,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 90.7,
+        "probabilities": {
+          "Bird": 90.7,
+          "Drone": 8.8,
+          "Human": 0.5
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 98.8,
+        "probabilities": {
+          "Bird": 98.8,
+          "Drone": 1.1,
+          "Human": 0.1
+        }
+      },
+      "perimeter_zone": "WARNING ZONE"
+    },
+    {
+      "time_sec": 10.0,
+      "position": [
+        440.0,
+        18.185949325561523,
+        35.0
+      ],
+      "velocity": [
+        -26.0,
+        -1.664587378501892,
+        -0.5
+      ],
+      "slant_range_m": 441.4,
+      "radial_velocity_mps": -26.02,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 96.6,
+        "probabilities": {
+          "Bird": 96.6,
+          "Drone": 3.1,
+          "Human": 0.3
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 85.3,
+        "probabilities": {
+          "Bird": 85.3,
+          "Drone": 12.6,
+          "Human": 2.0
+        }
+      },
+      "perimeter_zone": "WARNING ZONE"
+    },
+    {
+      "time_sec": 11.0,
+      "position": [
+        414.0,
+        16.1699275970459,
+        34.5
+      ],
+      "velocity": [
+        -26.0,
+        -2.354004383087158,
+        -0.5
+      ],
+      "slant_range_m": 415.4,
+      "radial_velocity_mps": -26.04,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 95.1,
+        "probabilities": {
+          "Bird": 95.1,
+          "Drone": 4.5,
+          "Human": 0.4
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 68.5,
+        "probabilities": {
+          "Bird": 68.5,
+          "Drone": 27.3,
+          "Human": 4.2
+        }
+      },
+      "perimeter_zone": "WARNING ZONE"
+    },
+    {
+      "time_sec": 12.0,
+      "position": [
+        388.0,
+        13.50926399230957,
+        34.0
+      ],
+      "velocity": [
+        -26.0,
+        -2.9495749473571777,
+        -0.5
+      ],
+      "slant_range_m": 389.3,
+      "radial_velocity_mps": -26.05,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 98.1,
+        "probabilities": {
+          "Bird": 98.1,
+          "Drone": 1.9,
+          "Human": 0.0
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 99.6,
+        "probabilities": {
+          "Bird": 99.6,
+          "Drone": 0.4,
+          "Human": 0.0
+        }
+      },
+      "perimeter_zone": "WARNING ZONE"
+    },
+    {
+      "time_sec": 13.0,
+      "position": [
+        362.0,
+        10.310027122497559,
+        33.5
+      ],
+      "velocity": [
+        -26.0,
+        -3.4275550842285156,
+        -0.5
+      ],
+      "slant_range_m": 363.3,
+      "radial_velocity_mps": -26.05,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 92.8,
+        "probabilities": {
+          "Bird": 92.8,
+          "Drone": 6.5,
+          "Human": 0.7
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 91.2,
+        "probabilities": {
+          "Bird": 91.2,
+          "Drone": 8.6,
+          "Human": 0.2
+        }
+      },
+      "perimeter_zone": "WARNING ZONE"
+    },
+    {
+      "time_sec": 14.0,
+      "position": [
+        336.0,
+        6.69976282119751,
+        33.0
+      ],
+      "velocity": [
+        -26.0,
+        -3.7688894271850586,
+        -0.5
+      ],
+      "slant_range_m": 337.2,
+      "radial_velocity_mps": -26.02,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 98.7,
+        "probabilities": {
+          "Bird": 98.7,
+          "Drone": 1.1,
+          "Human": 0.2
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 99.4,
+        "probabilities": {
+          "Bird": 99.4,
+          "Drone": 0.6,
+          "Human": 0.0
+        }
+      },
+      "perimeter_zone": "WARNING ZONE"
+    },
+    {
+      "time_sec": 15.0,
+      "position": [
+        310.0,
+        2.8224000930786133,
+        32.5
+      ],
+      "velocity": [
+        -26.0,
+        -3.959969997406006,
+        -0.5
+      ],
+      "slant_range_m": 311.2,
+      "radial_velocity_mps": -25.98,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 98.4,
+        "probabilities": {
+          "Bird": 98.4,
+          "Drone": 1.5,
+          "Human": 0.1
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 96.1,
+        "probabilities": {
+          "Bird": 96.1,
+          "Drone": 3.4,
+          "Human": 0.5
+        }
+      },
+      "perimeter_zone": "WARNING ZONE"
+    },
+    {
+      "time_sec": 16.0,
+      "position": [
+        284.0,
+        -1.167482852935791,
+        32.0
+      ],
+      "velocity": [
+        -26.0,
+        -3.9931790828704834,
+        -0.5
+      ],
+      "slant_range_m": 285.3,
+      "radial_velocity_mps": -25.91,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 83.3,
+        "probabilities": {
+          "Bird": 83.3,
+          "Drone": 15.1,
+          "Human": 1.6
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 95.8,
+        "probabilities": {
+          "Bird": 95.8,
+          "Drone": 3.9,
+          "Human": 0.3
+        }
+      },
+      "perimeter_zone": "WARNING ZONE"
+    },
+    {
+      "time_sec": 17.0,
+      "position": [
+        258.0,
+        -5.1108222007751465,
+        31.5
+      ],
+      "velocity": [
+        -26.0,
+        -3.8671927452087402,
+        -0.5
+      ],
+      "slant_range_m": 259.4,
+      "radial_velocity_mps": -25.83,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 89.9,
+        "probabilities": {
+          "Bird": 89.9,
+          "Drone": 9.4,
+          "Human": 0.7
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 98.7,
+        "probabilities": {
+          "Bird": 98.7,
+          "Drone": 1.2,
+          "Human": 0.1
+        }
+      },
+      "perimeter_zone": "WARNING ZONE"
+    },
+    {
+      "time_sec": 18.0,
+      "position": [
+        232.0,
+        -8.850408554077148,
+        31.0
+      ],
+      "velocity": [
+        -26.0,
+        -3.587033748626709,
+        -0.5
+      ],
+      "slant_range_m": 233.6,
+      "radial_velocity_mps": -25.74,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 96.9,
+        "probabilities": {
+          "Bird": 96.9,
+          "Drone": 2.8,
+          "Human": 0.3
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 68.4,
+        "probabilities": {
+          "Bird": 68.4,
+          "Drone": 29.7,
+          "Human": 1.9
+        }
+      },
+      "perimeter_zone": "WARNING ZONE"
+    },
+    {
+      "time_sec": 19.0,
+      "position": [
+        206.0,
+        -12.237157821655273,
+        30.5
+      ],
+      "velocity": [
+        -26.0,
+        -3.1638708114624023,
+        -0.5
+      ],
+      "slant_range_m": 207.9,
+      "radial_velocity_mps": -25.63,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 75.5,
+        "probabilities": {
+          "Bird": 75.5,
+          "Drone": 20.8,
+          "Human": 3.7
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 78.0,
+        "probabilities": {
+          "Bird": 78.0,
+          "Drone": 21.0,
+          "Human": 1.0
+        }
+      },
+      "perimeter_zone": "WARNING ZONE"
+    },
+    {
+      "time_sec": 20.0,
+      "position": [
+        180.0,
+        -15.1360502243042,
+        30.0
+      ],
+      "velocity": [
+        -26.0,
+        -2.614574432373047,
+        -0.5
+      ],
+      "slant_range_m": 182.4,
+      "radial_velocity_mps": -25.52,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Drone",
+        "confidence": 67.0,
+        "probabilities": {
+          "Bird": 20.3,
+          "Drone": 67.0,
+          "Human": 12.7
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 59.7,
+        "probabilities": {
+          "Bird": 59.7,
+          "Drone": 38.1,
+          "Human": 2.2
+        }
+      },
+      "perimeter_zone": "CRITICAL BREACH"
+    },
+    {
+      "time_sec": 21.0,
+      "position": [
+        154.0,
+        -17.431514739990234,
+        29.5
+      ],
+      "velocity": [
+        -26.0,
+        -1.9610432386398315,
+        -0.5
+      ],
+      "slant_range_m": 156.9,
+      "radial_velocity_mps": -25.38,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Drone",
+        "confidence": 50.2,
+        "probabilities": {
+          "Bird": 26.4,
+          "Drone": 50.2,
+          "Human": 23.4
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Drone",
+        "confidence": 85.4,
+        "probabilities": {
+          "Bird": 4.3,
+          "Drone": 85.4,
+          "Human": 10.4
+        }
+      },
+      "perimeter_zone": "CRITICAL BREACH"
+    },
+    {
+      "time_sec": 22.0,
+      "position": [
+        128.0,
+        -19.032041549682617,
+        29.0
+      ],
+      "velocity": [
+        -26.0,
+        -1.2293314933776855,
+        -0.5
+      ],
+      "slant_range_m": 131.6,
+      "radial_velocity_mps": -25.2,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Bird",
+        "confidence": 99.6,
+        "probabilities": {
+          "Bird": 99.6,
+          "Drone": 0.4,
+          "Human": 0.0
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Bird",
+        "confidence": 97.9,
+        "probabilities": {
+          "Bird": 97.9,
+          "Drone": 2.1,
+          "Human": 0.0
+        }
+      },
+      "perimeter_zone": "CRITICAL BREACH"
+    },
+    {
+      "time_sec": 23.0,
+      "position": [
+        102.0,
+        -19.87381935119629,
+        28.5
+      ],
+      "velocity": [
+        -26.0,
+        -0.4486100971698761,
+        -0.5
+      ],
+      "slant_range_m": 106.5,
+      "radial_velocity_mps": -24.92,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Drone",
+        "confidence": 51.9,
+        "probabilities": {
+          "Bird": 42.2,
+          "Drone": 51.9,
+          "Human": 5.9
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Drone",
+        "confidence": 70.6,
+        "probabilities": {
+          "Bird": 28.6,
+          "Drone": 70.6,
+          "Human": 0.8
+        }
+      },
+      "perimeter_zone": "CRITICAL BREACH"
+    },
+    {
+      "time_sec": 24.0,
+      "position": [
+        76.0,
+        -19.92329216003418,
+        28.0
+      ],
+      "velocity": [
+        -26.0,
+        0.3499959409236908,
+        -0.5
+      ],
+      "slant_range_m": 81.9,
+      "radial_velocity_mps": -24.36,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Drone",
+        "confidence": 51.7,
+        "probabilities": {
+          "Bird": 7.8,
+          "Drone": 51.7,
+          "Human": 40.5
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Drone",
+        "confidence": 94.9,
+        "probabilities": {
+          "Bird": 4.6,
+          "Drone": 94.9,
+          "Human": 0.5
+        }
+      },
+      "perimeter_zone": "CRITICAL BREACH"
+    },
+    {
+      "time_sec": 25.0,
+      "position": [
+        50.0,
+        -19.178485870361328,
+        27.5
+      ],
+      "velocity": [
+        -26.0,
+        1.1346487998962402,
+        -0.5
+      ],
+      "slant_range_m": 58.1,
+      "radial_velocity_mps": -22.95,
+      "ground_truth": "drone",
+      "standard_radar": {
+        "prediction": "Drone",
+        "confidence": 99.3,
+        "probabilities": {
+          "Bird": 0.2,
+          "Drone": 99.3,
+          "Human": 0.5
+        }
+      },
+      "dopplerguard": {
+        "prediction": "Drone",
+        "confidence": 99.0,
+        "probabilities": {
+          "Bird": 0.7,
+          "Drone": 99.0,
+          "Human": 0.2
+        }
+      },
+      "perimeter_zone": "CRITICAL BREACH"
+    }
+  ]
+}
