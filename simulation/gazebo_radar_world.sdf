@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<!--
+  Gazebo World: Perimeter Defense Surveillance Radar Testbed.
+  Includes a 77 GHz FMCW Radar Tower Station and airspace boundary.
+-->
+<sdf version="1.6">
+  <world name="radar_perimeter_world">
+    <!-- Ambient Sunlight and Environment -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Physics Engine Configuration (1 ms step size) -->
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <!-- Radar Mast / Tower (Located at origin [0, 0, 0], 5m height) -->
+    <model name="radar_tower">
+      <static>true</static>
+      <pose>0 0 2.5 0 0 0</pose>
+      <link name="tower_base">
+        <visual name="tower_visual">
+          <geometry>
+            <cylinder>
+              <radius>0.25</radius>
+              <length>5.0</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.2 0.2 0.2 1.0</ambient>
+            <diffuse>0.4 0.4 0.4 1.0</diffuse>
+          </material>
+        </visual>
+        <collision name="tower_collision">
+          <geometry>
+            <cylinder>
+              <radius>0.25</radius>
+              <length>5.0</length>
+            </cylinder>
+          </geometry>
+        </collision>
+      </link>
+
+      <!-- 77 GHz Radar Array Head -->
+      <link name="radar_sensor_head">
+        <pose>0 0 2.6 0 0 0</pose>
+        <visual name="head_visual">
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.1 0.3 0.8 1.0</ambient>
+            <diffuse>0.2 0.5 0.9 1.0</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Intrusion Perimeter Visual Boundary (500m radius circle approximation) -->
+    <model name="perimeter_warning_zone">
+      <static>true</static>
+      <pose>0 0 0.1 0 0 0</pose>
+      <link name="perimeter_ring">
+        <visual name="ring_visual">
+          <geometry>
+            <cylinder>
+              <radius>500.0</radius>
+              <length>0.05</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.8 0.1 0.1 0.15</ambient>
+            <diffuse>0.8 0.1 0.1 0.15</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

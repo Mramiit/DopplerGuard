@@ -75,10 +75,11 @@ def simulate_long_range_degradation(
         re_up = F.interpolate(low_res, size=(h, w), mode='bilinear', align_corners=False)
         noisy = re_up.squeeze(0).numpy()
 
-    # Dynamic range clipping & normalization to [0, 1]
-    n_min, n_max = noisy.min(), noisy.max()
-    normalized = (noisy - n_min) / (n_max - n_min + 1e-6)
-    return normalized.astype(np.float32)
+    # Dynamic range clipping & per-channel normalization to [0, 1]
+    for c_i in range(c):
+        c_min, c_max = noisy[c_i].min(), noisy[c_i].max()
+        noisy[c_i] = (noisy[c_i] - c_min) / (c_max - c_min + 1e-6)
+    return noisy.astype(np.float32)
 
 
 def distance_to_snr(

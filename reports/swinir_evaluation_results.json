@@ -1,0 +1,6 @@
+{
+  "mean_input_psnr_db": 16.755595475435257,
+  "mean_restored_psnr_db": 19.630980849266052,
+  "psnr_gain_db": 2.8753853738307953,
+  "test_samples": 1000
+}

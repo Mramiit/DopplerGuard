@@ -73,8 +73,30 @@ def run_pipeline_test():
     pred_res = predictor.predict_features(features)
     print("  -> Predictor passed! Prediction:", pred_res["prediction"], "Confidence:", f"{pred_res['confidence']*100:.1f}%")
 
+    # 6. Test Radar-SwinIR Forward Pass
+    print("\n[Step 6] Testing Radar-SwinIR Forward Pass...")
+    from src.swinir_model import get_radar_swinir
+    swinir = get_radar_swinir(device="cpu")
+    dummy_sr = torch.randn(2, 2, 64, 64)
+    restored = swinir(dummy_sr)
+    assert restored.shape == (2, 2, 64, 64), f"Expected (2, 2, 64, 64), got {restored.shape}"
+    print("  -> Radar-SwinIR forward pass passed! Restored shape:", restored.shape)
+
+    # 7. Test Synthetic Radar Simulation Bridge
+    print("\n[Step 7] Testing Synthetic Radar Sensor Simulation...")
+    from simulation.synthetic_radar_sensor import SyntheticRadarSensor
+    sim_radar = SyntheticRadarSensor(radar_pos=(0, 0, 5))
+    sim_res = sim_radar.scan_and_detect(
+        np.array([120.0, 10.0, 30.0], dtype=np.float32),
+        np.array([-15.0, 0.0, 0.0], dtype=np.float32),
+        target_ground_truth="drone",
+        use_swinir=True
+    )
+    assert "prediction" in sim_res and "confidence" in sim_res
+    print(f"  -> Synthetic sensor test passed! Range: {sim_res['range_m']}m, Prediction: {sim_res['prediction']} ({sim_res['confidence']}%)")
+
     print("\n" + "="*60)
-    print("ALL PIPELINE TESTS PASSED SUCCESSFULLY!")
+    print("ALL PIPELINE & SWINIR TESTS PASSED SUCCESSFULLY!")
     print("="*60)
 
 

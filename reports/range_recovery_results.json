@@ -1,0 +1,58 @@
+[
+  {
+    "distance_m": 70.0,
+    "snr_db": 15.0,
+    "snr_drop_db": 0.0,
+    "raw_accuracy": 93.75,
+    "restored_accuracy": 83.75,
+    "accuracy_gain": -10.0
+  },
+  {
+    "distance_m": 120.0,
+    "snr_db": 5.64,
+    "snr_drop_db": -9.36,
+    "raw_accuracy": 32.5,
+    "restored_accuracy": 39.5,
+    "accuracy_gain": 7.0
+  },
+  {
+    "distance_m": 200.0,
+    "snr_db": -3.24,
+    "snr_drop_db": -18.24,
+    "raw_accuracy": 70.5,
+    "restored_accuracy": 69.0,
+    "accuracy_gain": -1.5
+  },
+  {
+    "distance_m": 350.0,
+    "snr_db": -12.96,
+    "snr_drop_db": -27.96,
+    "raw_accuracy": 26.25,
+    "restored_accuracy": 25.25,
+    "accuracy_gain": -1.0
+  },
+  {
+    "distance_m": 500.0,
+    "snr_db": -19.15,
+    "snr_drop_db": -34.15,
+    "raw_accuracy": 25.75,
+    "restored_accuracy": 24.5,
+    "accuracy_gain": -1.25
+  },
+  {
+    "distance_m": 750.0,
+    "snr_db": -26.2,
+    "snr_drop_db": -41.2,
+    "raw_accuracy": 25.5,
+    "restored_accuracy": 25.25,
+    "accuracy_gain": -0.25
+  },
+  {
+    "distance_m": 1000.0,
+    "snr_db": -31.2,
+    "snr_drop_db": -46.2,
+    "raw_accuracy": 24.75,
+    "restored_accuracy": 25.0,
+    "accuracy_gain": 0.25
+  }
+]
